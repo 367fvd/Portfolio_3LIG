@@ -4,65 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Groupe 1 - Portfolio 3LIG</title>
-
-    <!-- Chemin vers le CSS commun à la racine du projet -->
-    <link rel="stylesheet" href="../../css/style.css">
+    <title>Groupe 1 | 3LIG-Portfolio</title>
+    <link rel="stylesheet" href="../../css/styles.css">
 </head>
-
 <body>
 
-    <header>
-        <h1>Portfolio 3LIG</h1>
-        <p>Groupe 1 — Présentation des étudiants</p>
-
-        <!-- Retour à la page d'accueil -->
-        <a href="../../index.html">Retour à l'accueil</a>
+    <header class="page-header">
+        <div class="header-inner">
+            <p class="breadcrumb">
+                <a href="../../index.html">Accueil</a> / Groupe 1
+            </p>
+            <h1>Groupe 1</h1>
+            <p>Découvrez les membres et leurs compétences.</p>
+        </div>
     </header>
 
     <main class="container">
-        <h2>Les membres du groupe 1</h2>
-        <p>Découvrez les profils et les compétences de nos étudiants.</p>
+        <section class="section">
+            <h2>Nos étudiants</h2>
+            <p class="section-description">
+                Chaque carte permet d'accéder au profil individuel d'un étudiant.
+            </p>
 
-        <section class="cards">
+            <div class="cards">
+                <article class="card">
+                    <div class="profile-icon">E1</div>
+                    <h3>Étudiant 01</h3>
+                    <p>Étudiant en troisième année de Licence en Informatique de Gestion.</p>
+                    <a class="text-link" href="students/etudiant-01.html">
+                        Voir le profil →
+                    </a>
+                </article>
 
-            <!-- Carte de l'étudiant 1 -->
-            <article class="card">
-                <h3>Étudiant 01</h3>
-                <p>Étudiant en 3e année Licence en Informatique de Gestion.</p>
-                <a href="students/etudiant-01.html">
-                    Voir le profil
-                </a>
-            </article>
+                <article class="card">
+                    <div class="profile-icon">E2</div>
+                    <h3>Étudiant 02</h3>
+                    <p>Étudiant en troisième année de Licence en Informatique de Gestion.</p>
+                    <a class="text-link" href="students/etudiant-02.html">
+                        Voir le profil →
+                    </a>
+                </article>
+            </div>
 
-            <!-- Carte de l'étudiant 2 -->
-            <article class="card">
-                <h3>Étudiant 02</h3>
-                <p>Étudiant en 3e année Licence en Informatique de Gestion.</p>
-                <a href="students/etudiant-02.html">
-                    Voir le profil
-                </a>
-            </article>
-
-            <!-- Carte de l'étudiant 3 -->
-            <article class="card">
-                <h3>Étudiant 03</h3>
-                <p>Étudiant en 3e année Licence en Informatique de Gestion.</p>
-                <a href="students/etudiant-03.html">
-                    Voir le profil
-                </a>
-            </article>
-
-            <!-- Ajouter ici les autres cartes des étudiants -->
-
+            <a class="back-link" href="../../index.html">
+                ← Retour à l'accueil
+            </a>
         </section>
     </main>
 
-    <footer>
-        <p>Portfolio collaboratif 3LIG — Introduction au DevOps</p>
+    <footer class="footer">
+        <p>3LIG-Portfolio — Groupe 1</p>
     </footer>
 
 </body>
 </html>
-
